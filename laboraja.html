@@ -75,98 +75,16 @@
 
     <section id="contact" class="container">
         <h2>Contact</h2>
-        <p>Email : laboraja@yahoo.fr laboratoireraja@yahoo.com </p>
-        <p>Téléphone : 0770259455 0770439129</p>
-        <p>Adresse : cité houcine roibah,beni malek,SKIKDA </p>
+       <p>Email : <a href="mailto:laboraja@yahoo.fr" style="color: rgb(14, 13, 13); text-decoration: none;">laboraja@yahoo.fr</a></p>
+        <p>Téléphone : <a href="tel:+213770259455" style="color: rgb(14, 13, 13); text-decoration: none;">0770259455</a></p>
+        <p>Adresse : cité houcine roibah,Beni malek,SKIKDA </p>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Laboratoire Raja. Tous droits réservés.</p>
-    </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratoire Raja – Contrôle Qualité & Expertise</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #0d6efd;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-        }
-        nav {
-            background-color: #0056b3;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 40px;
-        }
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 1000px;
-            margin: auto;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Laboratoire Raja</h1>
-        <p>Expertise & Contrôle Qualité</p>
-    </header>
-
-    <nav>
-        <a href="#presentation">Présentation</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <section id="presentation" class="container">
-        <h2>À propos du laboratoire</h2>
-        <p>Le Laboratoire Raja est spécialisé dans le contrôle qualité et l’expertise des matériaux, produits alimentaires, cosmétiques et pharmaceutiques. Grâce à une équipe hautement qualifiée et des équipements de pointe, nous garantissons des résultats fiables, conformes aux normes nationales et internationales.</p>
-    </section>
-
-    <section id="services" class="container">
-        <h2>Nos services</h2>
-        <ul>
-            <li>Analyses physico-chimiques et microbiologiques</li>
-            <li>Contrôle qualité des matières premières et produits finis</li>
-            <li>Expertise technique et conseils réglementaires</li>
-            <li>Validation de procédés et audits qualité</li>
-        </ul>
-    </section>
-
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>Email : laboraja@yahoo.fr laboratoireraja@yahoo.com</p>
-        <p>Téléphone : 0770259455 0770439129</p>
-        <p>Adresse : cité houcine roibah,beni malek,SKIKDA</p>
-    </section>
+      <form action="traitement.php" method="POST">
+    <input type="text" name="nom" placeholder="Votre nom" required>
+    <input type="email" name="emai" placeholder="Votre email" required>
+    <input type="text" name="telephone" placeholder="Votre téléphone">
+    <button type="submit">Envoyer</button>
+</form>
 
     <footer>
         <p>&copy; 2025 Laboratoire Raja. Tous droits réservés.</p>
