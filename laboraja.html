@@ -1,94 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratoire Raja – Contrôle Qualité & Expertise</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #0d6efd;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-        }
-        nav {
-            background-color: #0056b3;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 40px;
-        }
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 1000px;
-            margin: auto;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laboratoire Raja – Contrôle Qualité & Expertise</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+nav {
+    background-color: #0056b3;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 40px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+.btn {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #084298;
+}
+form input, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+</style>
 </head>
+
 <body>
 
-    <header>
-        <h1>LABORATOIRE RAJA</h1>
-        <p>Expertise & Contrôle Qualité</p>
-    </header>
+<header>
+    <h1>LABORATOIRE RAJA</h1>
+    <p>Expertise & Contrôle Qualité</p>
+</header>
 
-    <nav>
-        <a href="#presentation">Présentation</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<nav>
+    <a href="#presentation">Présentation</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <section id="presentation" class="container">
-        <h2>À propos du laboratoire</h2>
-        <p>Le Laboratoire Raja est spécialisé dans le contrôle qualité et l’expertise des matériaux, produits alimentaires, cosmétiques et pharmaceutiques. Grâce à une équipe hautement qualifiée et des équipements de pointe, nous garantissons des résultats fiables, conformes aux normes nationales et internationales.</p>
-    </section>
+<section id="presentation" class="container">
+    <h2>À propos du laboratoire</h2>
+    <p>
+        Le Laboratoire Raja est spécialisé dans le contrôle qualité et l’expertise
+        des matériaux, produits alimentaires, cosmétiques et pharmaceutiques.
+    </p>
+</section>
 
-    <section id="services" class="container">
-        <h2>Nos services</h2>
-        <ul>
-            <li>Analyses physico-chimiques et microbiologiques</li>
-            <li>Contrôle qualité des matières premières et produits finis</li>
-            <li>Expertise technique et conseils réglementaires</li>
-            <li>Validation de procédés et audits qualité</li>
-        </ul>
-    </section>
+<section id="services" class="container">
+    <h2>Nos services</h2>
+    <ul>
+        <li>Analyses physico-chimiques et microbiologiques</li>
+        <li>Contrôle qualité des matières premières et produits finis</li>
+        <li>Expertise technique et conseils réglementaires</li>
+        <li>Validation de procédés et audits qualité</li>
+    </ul>
+</section>
 
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-       <p>Email : <a href="mailto:laboraja@yahoo.fr" style="color: rgb(14, 13, 13); text-decoration: none;">laboraja@yahoo.fr</a></p>
-        <p>Téléphone : <a href="tel:+213770259455" style="color: rgb(14, 13, 13); text-decoration: none;">0770259455</a></p>
-        <p>Adresse : cité houcine roibah,Beni malek,SKIKDA </p>
-    </section>
-      <form action="traitement.php" method="POST">
-    <input type="text" name="nom" placeholder="Votre nom" required>
-    <input type="email" name="emai" placeholder="Votre email" required>
-    <input type="text" name="telephone" placeholder="Votre téléphone">
-    <button type="submit">Envoyer</button>
-</form>
+<section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:laboraja@yahoo.fr">laboraja@yahoo.fr</a></p>
+    <p>Téléphone : <a href="tel:+213770259455">0770259455</a></p>
+    <p>Adresse : Cité Houcine Roibah, Beni Malek, Skikda</p>
 
-    <footer>
-        <p>&copy; 2025 Laboratoire Raja. Tous droits réservés.</p>
-    </footer>
+    <br>
+</section>
+
+<div style="text-align: center; margin-top: 20px;">
+    <button type="button" id="btnRdv" onclick="ouvrirFormulaire()" style="padding: 10px 20px; background-color: #0d6efd; color: white; border: none; cursor: pointer; border-radius: 5px;">
+        Prendre un rendez-vous
+    </button>
+</div>
+
+<div id="monFormulaire" style="display: none; max-width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; background: #fff;">
+    <h3>Prendre un rendez-vous</h3>
+    <form action="traitement.php" method="POST">
+        <input type="text" name="nom" placeholder="Votre nom" required style="width: 100%; margin-bottom: 10px;">
+        <input type="email" name="email" placeholder="Votre email" required style="width: 100%; margin-bottom: 10px;">
+        <input type="text" name="telephone" placeholder="Votre téléphone" required style="width: 100%; margin-bottom: 10px;">
+        <label>Date souhaitée :</label>
+        <input type="date" name="date_rdv" required style="width: 100%; margin-bottom: 10px;">
+        <button type="submit" style="width: 100%; background: #28a745; color: white; border: none; padding: 10px;">Envoyer</button>
+    </form>
+</div>
+<footer>
+    <p>&copy; 2025 Laboratoire Raja. Tous droits réservés.</p>
+</footer>
+
+<script>
+function ouvrirFormulaire() {
+    
+    document.getElementById('monFormulaire').style.display = 'block';
+
+    document.getElementById('btnRdv').style.display = 'none';
+}
+</script>
 
 </body>
 </html>
